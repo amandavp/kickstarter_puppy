@@ -34,13 +34,13 @@ p{
   font-size:30;
 }
 label{
-  text-align:center;
+  margin-left:44%;
   background-color:white;
   font-family: 'Fjalla One', sans-serif;
   border: 10px solid black;
 }
 input{
-  text-align:center;
+  margin-left:40%;
   background-color:white;
   font-family: 'Fjalla One', sans-serif;
   border: 10px solid black;
