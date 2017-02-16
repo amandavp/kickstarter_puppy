@@ -1,0 +1,15 @@
+.inner-image {
+  width: 100%;
+}
+
+#text, h1, h3 {
+  font-family: Fjalla One, sans-serif;
+  float: center;
+}
+
+#text h1, h3 {
+  text-align: center;
+}
+.hamster {
+  float: center;
+}
