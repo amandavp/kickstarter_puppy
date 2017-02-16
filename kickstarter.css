@@ -1,0 +1,47 @@
+/*homepage*/
+h1{
+  text-align:center;
+  background-color:white;
+  font-family: 'Fjalla One', sans-serif;
+  border: 10px solid black;
+}
+h2{
+  text-align:center;
+  background-color:white;
+  font-family: 'Fjalla One', sans-serif;
+  border: 10px solid black;
+}
+body {
+    background-image: url("http://i.imgur.com/3oHlcXo.gif");
+}
+img{
+  margin-left:30%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 10px solid black;
+    font-family: 'Fjalla One', sans-serif;
+    color:black;
+    background-color:white;
+}
+p{
+  text-align:center;
+  background-color:white;
+  font-family: 'Fjalla One', sans-serif;
+  border: 10px solid black;
+  font-size:30;
+}
+label{
+  text-align:center;
+  background-color:white;
+  font-family: 'Fjalla One', sans-serif;
+  border: 10px solid black;
+}
+input{
+  text-align:center;
+  background-color:white;
+  font-family: 'Fjalla One', sans-serif;
+  border: 10px solid black;
+}
