@@ -20,31 +20,37 @@ function renderImages(images) {
 
 var images = [
   {
-    src: 'http://placekitten.com/201/201',
-    caption: 'this cat',
-    class: 'cat2'
-  },
-  {
-    src: 'http://placekitten.com/201/202',
-    caption: 'no, THIS cat'
-  },
-  {
     src: 'https://img1.wsimg.com/fos/sales/cwh/8/images/cats-with-hats-shop-06.jpg',
-    caption: 'look at me now'},
+    caption: 'Black Belt'},
   {
     src:
     'https://img1.wsimg.com/fos/sales/cwh/8/images/cats-with-hats-shop-04.jpg',
-    caption: 'cant touch this!'
+    caption: 'Brown Belt'
   },
   {
     src:
     'https://img1.wsimg.com/fos/sales/cwh/8/images/cats-with-hats-shop-06.jpg',
-    caption: 'new cat'},
+    caption: 'Orange Belt'},
  {
    src: 'https://img1.wsimg.com/fos/sales/cwh/8/images/cats-with-hats-shop-05.jpg',
-   caption:  'nice hat'},
+   caption:  'Yellow Belt'},
 
 ];
 function clickMe(){
   renderImages(images);
 };
+
+$('#imgContainer > img').each(function(){
+    //get img dimensions
+    var h = $(this).height();
+    var w = $(this).width();
+
+    //get div dimensions
+    var div_h =$('#imgContainer').height();
+    var div_w =$('#imgContainer').width();
+
+    //set img position
+    this.style.top = Math.round((div_h - h) / 2) + 'px';
+    this.style.left = '50%';
+    this.style.marginLeft = Math.round(w/2) + 'px';
+});
