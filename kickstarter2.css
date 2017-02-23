@@ -11,6 +11,27 @@
 #text h1, h3 {
   text-align: center;
 }
-.hamster {
-  float: center;
+
+p {
+  font-weight: bold;
+}
+
+.left {
+  text-align: center
+    ;
+}
+img {
+  width: 300px;
+  border: 15px solid blue;
+  background-color: yellow;
+}
+.cat2 {
+  width: 200px;
+}
+.meet {
+  text-align: center;
+}
+
+body {
+  background-image: url("https://img.clipartfest.com/67013726acc69c597ca0687b912b8b2e_violet-color-violet-color_2880-1800.jpeg");
 }
