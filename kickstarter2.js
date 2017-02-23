@@ -39,18 +39,3 @@ var images = [
 function clickMe(){
   renderImages(images);
 };
-
-$('#imgContainer > img').each(function(){
-    //get img dimensions
-    var h = $(this).height();
-    var w = $(this).width();
-
-    //get div dimensions
-    var div_h =$('#imgContainer').height();
-    var div_w =$('#imgContainer').width();
-
-    //set img position
-    this.style.top = Math.round((div_h - h) / 2) + 'px';
-    this.style.left = '50%';
-    this.style.marginLeft = Math.round(w/2) + 'px';
-});
